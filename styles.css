@@ -44,7 +44,7 @@ html {
   padding: 0;
 }
 
-div.container{
+div.container {
   justify-content: start !important;
 }
 
@@ -53,14 +53,13 @@ div.container{
   text-align: center;
   margin: 0 auto;
 }
-.button-container{
+.button-container {
   margin-top: 50px;
 }
 
 .navbar-logo {
-  
-  height: 30px; 
-  vertical-align: middle; 
+  height: 30px;
+  vertical-align: middle;
 }
 
 .home-header {
@@ -86,10 +85,8 @@ div.container{
   margin-bottom: 30px;
 }
 
-
 /* Blog grid styles */
 .blog-grid {
-
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -107,7 +104,7 @@ div.container{
   html {
     font-size: 10px; /* 调整字体大小以适应较小的屏幕 */
   }
-  
+
   .blog-card {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -120,31 +117,31 @@ div.container{
 }
 
 .navbar-right {
-  float: right!important;
+  float: right !important;
   margin-right: -30px;
 }
-
 
 .card {
   height: 100%;
 }
 
 .card-body {
-  height:40%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .card-text {
-  margin: 10; 
-  text-align: left; 
-  padding: 15px; 
+  margin: 10;
+  text-align: left;
+  padding: 15px;
   font-size: 20px;
   font-weight: bold;
 }
 /* Reset some default styles */
-body, ul {
+body,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -174,7 +171,6 @@ body, ul {
   width: 40px;
   height: 32px;
 }
-
 
 .custom-footer__copyright {
   margin-top: 5px;
@@ -208,8 +204,8 @@ body, ul {
   color: #007bff;
 }
 
-.custom-footer__section{
-  padding-right: 70px ;
+.custom-footer__section {
+  padding-right: 70px;
 }
 
 /* Button styles */
@@ -217,7 +213,7 @@ body, ul {
   font-size: 15px;
   padding: 10px 20px; /* 增加按钮的上下内边距，增加按钮高度 */
   margin-right: 20px; /* 增加按钮之间的右边距 */
-  background-color: #5f5e5e; /* 修改按钮的背景颜色 */
+  background-color: rgb(60, 111, 242); /* 修改按钮的背景颜色 */
   color: #fff; /* 修改按钮的文本颜色 */
   border: none; /* 移除按钮的边框 */
   border-radius: 5px; /* 设置按钮的圆角 */
@@ -226,22 +222,20 @@ body, ul {
 
 /* 悬停时修改按钮颜色 */
 .btn-primary:hover {
-  background-color: #929191; /* 修改悬停时的背景颜色 */
+  background-color: rgb(28, 144, 26); /* 修改悬停时的背景颜色 */
 }
-.lh-1{
+.lh-1 {
   padding-bottom: 20px;
   padding-top: 20px;
 }
 .card-text.text-center {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  height: 100%; 
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .row {
   margin-right: 0px;
   margin-left: 0px;
 }
-
-
